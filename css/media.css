@@ -1,0 +1,31 @@
+@media (max-width: 550px) {
+.mune-headers{
+    display: block;
+}
+.navbar {
+    position: absolute;
+    top: 30px;
+    left: 229px;
+    width: 50%;
+    height: 200px;
+    display: none;
+  }
+   .home-nav a {
+    display: block;
+    text-align: center;
+    margin: 15px 0;
+  }
+  .nav-pag:hover .navbar{
+    display: block;
+  }
+.heading{
+    flex-direction: column-reverse;
+}
+.customer{
+    flex-direction: column;
+    align-items: center;
+}
+.box-customer{
+    margin-bottom: 30px;
+}
+}
